@@ -35,7 +35,7 @@
             android:text="Функция"/>
 
         <EditText
-            android:id="@+id/Function_field"
+            android:id="@+id/Function_Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -96,7 +96,7 @@
         android:layout_marginTop="5dp">
 
         <Button
-            android:id="@+id/Sorting"
+            android:id="@+id/Sorting_Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Сортировка"/>
