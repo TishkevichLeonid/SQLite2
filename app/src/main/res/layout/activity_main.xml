@@ -15,4 +15,118 @@
         android:layout_marginTop="5dp"
         />
 
+    <Button
+        android:id="@+id/All_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Все записи"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/Function_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Функция"/>
+
+        <EditText
+            android:id="@+id/Function_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/Population_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Население"/>
+
+        <EditText
+            android:id="@+id/Population_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Population_Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Население по региону"
+        android:layout_marginTop="5dp"/>
+    
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/Population_Group_Count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Население по региону >"/>
+
+        <EditText
+            android:id="@+id/Group_Population_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/Sorting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сортировка"/>
+
+        <RadioGroup
+            android:id="@+id/Sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Наименование"/>
+
+            <RadioButton
+                android:id="@+id/Radio_Population"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Население"/>
+
+            <RadioButton
+                android:id="@+id/Radio_Region"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Регион"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
 </LinearLayout>
