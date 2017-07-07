@@ -20,7 +20,7 @@
 
 ![Image alt](https://github.com/TishkevichLeonid/SQLite2/raw/master/screenshots/2.1.png)
   
-#### Выберем страны с населением больше 10 млн
+#### Выберем страны с населением больше 100 млн
 
 ![Image alt](https://github.com/TishkevichLeonid/SQLite2/raw/master/screenshots/3.png)
 
